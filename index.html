@@ -24,6 +24,14 @@
       <button type="submit">go</button>
     </div>
   </form>
+
+  <?php
+
+	if (isset($_POST['email'])) {
+		mail("froger.thomas@gmail.com", $_POST['email'], "");
+	}
+
+	?>
 </div>
 	
 	<footer>
