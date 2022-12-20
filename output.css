@@ -1,0 +1,119 @@
+body {
+  background: #eee;
+  font-family: "Andale Mono", monospace;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.embed-submit-field {
+  position: relative;
+  margin-top: 20px;
+}
+.embed-submit-field input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 40px;
+  border-style: hidden;
+  font-size: 15px;
+  font-family: "Andale Mono", monospace;
+  outline-color: #2402cb;
+}
+.embed-submit-field button {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  font-family: "Andale Mono", monospace;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: #02C1CB;
+  border-radius: 20px;
+  padding: 10px;
+  color: #fff;
+  transition: all 0.2s;
+}
+.embed-submit-field button:hover {
+  background-color: #02C1CB;
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero::before {
+  content: "";
+  background-image: url("decroissance.site.png");
+  /*background-size: cover;*/
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+  transform: rotate(0.5deg);
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  height: 200px;
+  vertical-align: middle;
+}
+
+h1 {
+  position: relative;
+  color: black;
+  font-size: 6vw;
+  line-height: 1.2;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding-top: auto;
+}
+
+p {
+  position: relative;
+  text-align: center;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 1px;
+  padding-bottom: 20px;
+}
+footer:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 15px;
+}
+
+a {
+  padding: 4px;
+}
+a:visited {
+  color: #1200ED;
+}
+a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=output.css.map */
